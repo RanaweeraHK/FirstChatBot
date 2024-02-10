@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key ="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"
+openai.api_key ="your-api-key"
 
 def chat_with_bot(prompt):
     response = openai.ChatCompletion.create(
